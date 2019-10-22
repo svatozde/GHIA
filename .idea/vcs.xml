@@ -2,10 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ghia_test" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tests_environment" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tests_environment/ghia_test" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tests_environment/svatozde" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tests_environment/zdenek.svaton" vcs="Git" />
   </component>
 </project>

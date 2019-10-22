@@ -1,54 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c536734-151b-42e0-8a62-a247f4646b6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests_environment/delete.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/dummy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.001.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.002.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.003.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.004.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.005.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.006.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.007.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.008.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.009.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.011.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.013.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.015.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.017.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.021.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.024.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.027.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.033.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.046.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.047.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.048.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.050.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.051.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.052.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.053.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.054.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.055.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.056.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.057.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.060.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.067.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.076.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.083.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.096.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.110.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.111.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.112.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.113.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.114.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.115.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.116.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.117.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.118.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/issues/issue.119.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/setup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_environment/svatozde" afterDir="false" />
+    <list default="true" id="0c536734-151b-42e0-8a62-a247f4646b6a" name="Default Changelist" comment="flask commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +20,36 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/ghia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
+            <state relative-caret-position="74">
               <caret line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/flask.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-306" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -145,7 +124,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="work" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -157,6 +136,8 @@
         <option value="$PROJECT_DIR$/app/rules.cfg" />
         <option value="$PROJECT_DIR$/app/ghia.py" />
         <option value="$PROJECT_DIR$/tests_environment/setup.sh" />
+        <option value="$PROJECT_DIR$/app/flask.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -172,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,20 +160,11 @@
               <item name="ghia" type="b2602c69:ProjectViewProjectNode" />
               <item name="ghia" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ghia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ghia" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ghia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ghia" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,7 +172,7 @@
     <property name="last_opened_file_path" value="C:/repos/logpoint_aii" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -266,7 +237,8 @@
       <workItem from="1571570712815" duration="18677000" />
       <workItem from="1571662833461" duration="1139000" />
       <workItem from="1571760325215" duration="599000" />
-      <workItem from="1571768436366" duration="1446000" />
+      <workItem from="1571768436366" duration="1830000" />
+      <workItem from="1571776272789" duration="1378000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1571775113362</created>
@@ -275,16 +247,30 @@
       <option name="project" value="LOCAL" />
       <updated>1571775113362</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="flask commit">
+      <created>1571778608364</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571778608364</updated>
+    </task>
+    <task id="LOCAL-00003" summary="flask commit">
+      <created>1571778682704</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571778682704</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21861000" />
+    <option name="totallyTimeSpent" value="23623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -296,7 +282,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Reviews" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49946696" visible="true" weight="0.74972916" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49946696" visible="true" weight="0.5330444" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.74972916" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
@@ -338,10 +324,33 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ghia_test" />
+      <path value="$PROJECT_DIR$/tests_environment" />
+      <path value="$PROJECT_DIR$/tests_environment/ghia_test" />
+      <path value="$PROJECT_DIR$/tests_environment/svatozde" />
+      <path value="$PROJECT_DIR$/tests_environment/zdenek.svaton" />
+    </ignored-roots>
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="flask commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -591,8 +600,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/ghia.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
+        <state relative-caret-position="74">
           <caret line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
