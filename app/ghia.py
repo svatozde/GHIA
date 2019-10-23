@@ -20,6 +20,11 @@ def is_valid_signature(x_hub_signature, data, private_key):
     mac = hmac.new(encoded_key, msg=data, digestmod=algorithm)
     return hmac.compare_digest(mac.hexdigest(), github_signature)
 
+@app.before_request
+def log_request_info():
+    app.logger.info('Headers: %s', request.headers)
+    app.logger.info('Body: %s', request.get_data())
+
 
 @app.route('/', methods=['POST'])
 def gitHub():
