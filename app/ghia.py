@@ -7,8 +7,8 @@ import hashlib
 
 app = Flask(__name__)
 
-hooks = None
-invalid_hooks = None
+hooks = []
+invalid_hooks = []
 
 w_secret = 'WjMTejwojlt7wfZw3PB3'
 
