@@ -28,7 +28,7 @@ def gitHub(captain_hook):
 
 @app.route('/hooks')
 def index():
-    return "Hello World!\n" + json.dump(hooks)
+    return "Hello World!\n" + json.dumps(hooks)
 
 
 if __name__ == '__main__':
