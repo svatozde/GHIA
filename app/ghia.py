@@ -19,11 +19,11 @@ def is_valid_signature(x_hub_signature, data, private_key):
 
 
 @app.route('/', methods=['POST'])
-def gitHub(captain_hook):
+def gitHub():
     x_hub_signature = request.headers.get('X - Hub - Signature')
 
     if is_valid_signature(x_hub_signature, request.data, w_secret):
-        hooks.append(captain_hook)
+        hooks.append(request.get_json())
 
 
 @app.route('/hooks')
