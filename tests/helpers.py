@@ -9,8 +9,8 @@ import sys
 
 
 def run(line, **kwargs):
-    print('$ python ghia.py', line)
-    command = [sys.executable, 'ghia.py'] + shlex.split(line)
+    print('$ python ghia_click.py', line)
+    command = [sys.executable, 'ghia_click.py'] + shlex.split(line)
     return subprocess.run(command,
                           stdout=subprocess.PIPE,
                           stderr=subprocess.PIPE,

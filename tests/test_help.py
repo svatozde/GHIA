@@ -7,7 +7,7 @@ stdout = hlp.stdout
 
 
 def test_usage():
-    assert stdout.startswith('Usage: ghia.py [OPTIONS] REPOSLUG')
+    assert stdout.startswith('Usage: ghia_click.py [OPTIONS] REPOSLUG')
 
 
 def test_description():
