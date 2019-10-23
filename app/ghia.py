@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import request
+from flask import logging
 import json
 import hmac
 import hashlib
@@ -20,8 +21,9 @@ def is_valid_signature(x_hub_signature, data, private_key):
 
 @app.route('/', methods=['POST'])
 def gitHub():
-
+    app.logger(request.get_json())
     x_hub_signature = request.headers.get('X-Hub-Signature')
+    app.logger("x_hub_signature:" + x_hub_signature)
 
     if is_valid_signature(x_hub_signature, request.data, w_secret):
         hooks.append(request.get_json())
