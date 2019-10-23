@@ -26,6 +26,8 @@ def gitHub():
     if is_valid_signature(x_hub_signature, request.data, w_secret):
         hooks.append(request.get_json())
 
+    return 'ok'
+
 
 
 @app.route('/hooks')
