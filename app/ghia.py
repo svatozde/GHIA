@@ -8,6 +8,7 @@ import hashlib
 app = Flask(__name__)
 
 hooks = []
+invalid_hooks=[]
 w_secret = 'WjMTejwojlt7wfZw3PB3'
 
 
@@ -27,6 +28,8 @@ def gitHub():
 
     if is_valid_signature(x_hub_signature, request.data, w_secret):
         hooks.append(request.get_json())
+    else:
+        invalid_hooks.append(request.get_json())
 
     return 'ok'
 
@@ -34,7 +37,8 @@ def gitHub():
 
 @app.route('/hooks')
 def index():
-    return "Hello World!\n" + json.dumps(hooks)
+    return "Hello World! </br> Valid hook:" + json.dumps(hooks) + \
+           " </br>   Invalid hooks:" + json.dumps(invalid_hooks)
 
 
 if __name__ == '__main__':
