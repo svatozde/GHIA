@@ -23,7 +23,7 @@ def is_valid_signature(x_hub_signature, data, private_key):
 
 @app.route('/', methods=['POST'])
 def gitHub():
-    app.logger(request.get_json())
+    app.logger().info(request.get_json())
     x_hub_signature = request.headers.get('X-Hub-Signature')
     app.logger("x_hub_signature:" + x_hub_signature)
 
