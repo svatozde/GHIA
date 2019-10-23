@@ -20,21 +20,22 @@ def is_valid_signature(x_hub_signature, data, private_key):
     mac = hmac.new(encoded_key, msg=data, digestmod=algorithm)
     return hmac.compare_digest(mac.hexdigest(), github_signature)
 
-@app.before_request
-def log_request_info():
-    app.logger.info('Headers: %s', request.headers)
-    app.logger.info('Body: %s', request.get_data())
-    app.logger.info('Body: %s', request.get_json(force=True))
+
 
 
 @app.route('/', methods=['POST'])
 def gitHub():
+    app.logger.info('Headers: %s', request.headers)
+    app.logger.info('Body: %s', request.get_json(force=True))
+
     x_hub_signature = request.headers.get('X-Hub-Signature')
+
     hooks.append(x_hub_signature)
-    app.logger.info(request.get_json(force=True))
+
     app.logger.info("x_hub_signature:" + x_hub_signature)
 
     if is_valid_signature(x_hub_signature, request.data, w_secret):
+        app.logger.info(x_hub_signature + " is valid!")
         hooks.append(request.get_json(force=True))
     else:
         invalid_hooks.append(request.get_json(force=True))
