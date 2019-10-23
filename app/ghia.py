@@ -6,7 +6,7 @@ import hashlib
 
 app = Flask(__name__)
 
-hooks = set()
+hooks = []
 w_secret = 'WjMTejwojlt7wfZw3PB3'
 
 
@@ -23,7 +23,7 @@ def gitHub(captain_hook):
     x_hub_signature = request.headers.get('X - Hub - Signature')
 
     if is_valid_signature(x_hub_signature, request.data, w_secret):
-        hooks.add(captain_hook)
+        hooks.append(captain_hook)
 
 
 @app.route('/hooks')
